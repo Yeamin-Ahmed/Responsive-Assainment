@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
+/* special font */
+@font-face{
+	font-family: miama;
+	src: url(../fonts/miama/Miama.ttf)
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,28 +23,31 @@
     top: 0;
     /* styel */
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(16, 15, 15, 0.842) 100%);
-    border: 2px solid red;
 }
 nav{
     position: absolute;
-width: 76.2%;
+width: 70.2%;
 height: 46px;
 left: 210px;
 top: 57px;
-gap:64%;
+gap:60%;
 /* Auto layout */
 display: flex;
 flex-direction: row;
 /* justify-content: space-between; */
 align-items: center;
 padding: 0px;
-border: 2px solid red;
+border: 3px solid red;
 }
 
 nav>ul{
     list-style: none;
     display: flex;
-    /* gap: 35px; */
+   
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    
    
 }
 
@@ -50,6 +60,7 @@ line-height: 120%;
 letter-spacing: 0%;
 text-align: left;
 padding: 8px 20px ;
+cursor: pointer;
 }
 nav>ul>li:hover{
   
@@ -86,3 +97,89 @@ padding: 0px;
     display: inline;
     cursor: pointer;
 } */
+
+.banner-text> h1{
+    width: 520px;
+height: 282px;
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 28px 0;
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 78px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.ban-span{
+    font-family: miama;
+   font-size: 9.5rem;;
+font-weight: 100;
+}
+
+.banner-text> p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left; 
+
+    width: 520px;
+height: 48px;
+/* flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;*/
+margin: 28px 0px; 
+}
+
+
+.pr-btn{
+  position: relative;
+justify-content: center;
+align-items: flex-start;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+.btn-ban{
+    box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+margin-right: 14px;
+padding: 16px 40px 16px 40px;
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.125rem;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+background-color: transparent;
+cursor: pointer;
+}
+.btn-ban:hover{
+ 
+    border: 1px solid rgb(230, 83, 60);
+background: rgb(230, 83, 60);
+}
+
+.img-box{
+   /* Images 2 */
+position: absolute;
+width: 349px;
+height: 580px;
+left: 62.9%;
+top: 135px; 
+}
