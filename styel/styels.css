@@ -577,7 +577,7 @@ background: rgb(34, 34, 34);
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 4% 0% 1% 15%;
+    margin: 7% 0% 1% 15%;
 
 
 
@@ -645,3 +645,312 @@ line-height: 120%;
 letter-spacing: 0%;
 text-align: center;
 }
+
+.bmi-cal{
+
+   
+}
+
+.bmi-cal>h3{
+    position: relative;
+    width: 45%;
+    margin-top: 7%;
+
+   
+
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.75rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.bmi-cal>p{
+
+
+
+
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.3px;
+text-align: left;
+}
+.bmi-input{
+    position: relative;
+width: 80%;
+    display: grid;
+    gap: 4%;
+    margin-top: 5%;
+    grid-template-columns:  auto auto;
+    
+   
+
+   
+
+
+}
+
+.bmi-input>input, form {
+
+position: static;
+width: 69.6%;
+
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 7% 6% 7% 4%;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+
+border-radius: 10%;
+
+background: rgba(255, 255, 255, 0.1);
+}
+
+.act-fac{
+    margin-top: 5%;
+    padding: 5% 6% 5% 4%;
+}
+
+
+
+
+.mot{
+    position: relative;
+    width: 73.6%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    gap: 58;
+    padding: 0;
+    
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 8% 12%;
+    margin-bottom: 0;
+
+
+}
+
+.mott{
+     
+position: relative;
+width: 63.3%;
+
+ 
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 14;
+padding: 0;
+
+
+ 
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 5% 0%;
+
+
+
+
+}
+
+.mott>h1{
+
+
+
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.mott>p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.3px;
+text-align: center;
+}
+
+.motp{
+
+    position: relative;
+    width: 83.3%;
+    
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20;
+    padding: 2%;
+
+display: grid;
+grid-template-columns: auto auto auto; 
+
+
+    flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 20px;
+
+
+border-radius: 1.125rem;
+
+background: rgba(255, 255, 255, 0.1);
+}
+
+
+.motp>img{
+position: relative;
+width: 80.8%;
+align-items: center;
+margin-top: 10%;
+    border-radius: 18px;
+
+background: rgba(0, 0, 0, 0.2),url(image);
+}
+
+
+.foot{
+
+
+
+background: rgb(0, 0, 0);
+}
+
+
+
+.ft{
+    position: relative;
+    width: 73.54%;
+    
+    left: 12.5%;
+    top: 1.75rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 120;
+    padding: 0px; 
+
+
+    
+}
+
+
+.rft{
+
+
+    position: relative;
+width: 41.8%;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20;
+padding: 0px;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+
+}
+
+.rft>h3{
+
+    color: rgb(230, 83, 60);
+    font-size: 2.3rem;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.rft>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left; 
+}
+
+.ftable{
+    
+position: relative;
+width: 120%;
+
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 152;
+padding: 0px;
+
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left: 80%;
+
+
+
+}
+
+
+
+
+
+.fel{
+
+    position: relative;
+    width: 73.5%;
+    height: 0;
+  
+    left: 12.5%;
+margin-top: 5%;
+    border: 2px solid rgba(152, 156, 164, 0.364);
+    border-radius: 50%;}
+
+    .fet>p{
+
+        margin-top: 2%;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0.3px;
+text-align: center;
+    }
